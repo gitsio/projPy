@@ -12,4 +12,14 @@ def setcolor(color):
     return Fore.YELLOW
   elif (color == "pink"):
     return Fore.LIGHTMAGNETTA_EX
+  elif (color == "resetthis"):
+    return Fore.RESET, "Hello World!"
+  
+
+
+
+
+
+def logger(log):
+  print(log)
   
